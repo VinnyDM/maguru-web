@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Maguru</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!-- <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+	<div class="container-fluid">
+		<a class="navbar-brand"><img src="img/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </div>
+	</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/hero1.png">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/hero2.png">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/hero3.png">
+      </div>
+    </div>
+</div>
+<!--- Jumbotron -->
+<div class="container-fluid">
+  <div class="row jumbotron">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 col-xl-6">
+      <h1>What I can do</h1>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
+      <h5>I can be your best AI friend.</h5>
+      <p>Lorem nonummy euismod ipsum dolor ametsed diam, consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt</p>
+      <h5>I can be your peer tutor.</h5>
+      <p>Consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet</p>
+      <h5>I am a coding robotic.</h5>
+      <p>Lorem adipiscing elit sed diam nonummy nonummy euismod ipsum nibh euismod tincidunt ut laoreet</p>
+    </div>
+    <div class="col-12 text-center">
+      <button type="button" class="btn btn-warning text-center">Learn more</button>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!--- Cards -->
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-sm-6 col-md-3">
+      <div class="card">
+        <img class="card-img-top p-4" src="img/curi.svg">
+        <div class="text-center my-3">
+          <a href="#">Curiculum</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="card">
+        <img class="card-img-top p-4" src="img/library.svg">
+        <div class="text-center my-3">
+          <a href="#">Library</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="card">
+        <img class="card-img-top p-4" src="img/schedule.svg">
+        <div class="text-center my-3">
+          <a href="#">Schedule</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="card">
+        <img class="card-img-top p-4" src="img/note.svg">
+        <div class="text-center my-3">
+          <a href="#">Notes</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--- Footer -->
+<div class="container-fluid padding">
+  <div class="row p-4">
+    <div class="col-md-3">
+      <h5>NEWLETTER</h5>
+      <p>Support Maguru and stay in the loop.</p>
+      <input type="text" id="email" name="Email">
+      <button type="button" class="btn btn-warning text-center">Submit</button>
+    </div>
+    <div class="col-md-3">
+      <h5>CONTACT US</h5>
+      <a class="#" href="#">Toronto,ON, CA</a>
+      <a href="#">HCMC, Vietnam</a>
+      <a href="#">info@obbo.com</a>
+      <a href="#">Contact Form</a>
+      <a href="#">Chat with us</a>
+    </div>
+    <div class="col-md-3">
+      <h5>OUR COMPANY</h5>
+      <a class="#" href="#">MAGURU’s Story</a>
+      <a href="#">Affiliate Program</a>
+      <a href="#">Media Requests</a>
+      <a href="#">Media Kit</a>
+      <a href="#">Library</a>
+    </div>
+    <div class="col-md-3">
+      <h5>OUR COMMITMENT</h5>
+      <a class="#" href="#">Support</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Returns & Refund</a>
+      <a href="#">Warranty</a>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
